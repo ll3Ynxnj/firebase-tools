@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Service Account Keys (NEVER commit these!)
+*.json
+!package.json
+!package-lock.json
+
+# Environment files
+.env
+.env.local
+.envrc
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db

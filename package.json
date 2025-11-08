@@ -1,0 +1,23 @@
+{
+  "name": "firebase-tools",
+  "version": "1.0.0",
+  "description": "Firebase/Firestore management tools",
+  "scripts": {
+    "browse": "node src/browse-firestore.js",
+    "postversion": "git push && git push --tags && ./deploy.sh"
+  },
+  "bin": {
+    "browse-firestore": "./src/browse-firestore.js"
+  },
+  "keywords": [
+    "firebase",
+    "firestore",
+    "admin",
+    "tools"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "firebase-admin": "^13.4.0"
+  }
+}
