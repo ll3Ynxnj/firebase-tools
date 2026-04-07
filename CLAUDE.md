@@ -151,31 +151,6 @@ GOOGLE_APPLICATION_CREDENTIALS=/path/to/key.json browse-firestore products
 - `main` - Production-ready code
 - Feature branches - Short-lived branches for development
 
-### Commit Message Guidelines
-
-Follow conventional commit format:
-
-```
-<type>: <description>
-
-[optional body]
-```
-
-**Types:**
-- `feat:` - New feature
-- `fix:` - Bug fix
-- `docs:` - Documentation changes
-- `refactor:` - Code refactoring
-- `test:` - Adding tests
-- `chore:` - Maintenance tasks
-
-**Examples:**
-```
-feat: add support for subcollection browsing
-fix: handle Timestamp conversion errors
-docs: update README with new examples
-```
-
 ## Adding New Tools
 
 When adding new Firebase tools to this project:
